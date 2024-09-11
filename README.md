@@ -96,10 +96,10 @@ python xai_analysis.py
 
 ## Model Summary
 
-|          Experiment          |                                                    Model Type                                                    |            Key Techniques            |          Script          |   |
-|:----------------------------:|:----------------------------------------------------------------------------------------------------------------:|:------------------------------------:|:------------------------:|:-:|
-|         Classical ML         | Decision Tree (DT), Random Forest (RF), Logistic Regression (LR), Naïve Bayes (NB), Support Vector Machine (SVM) |         Baseline performance         | `classical_ml_models.py` |   |
-|         Scaled Data          |                                               DT, RF, LR, NB, SVM                                                |         Data standardization         | `scaled_data_models.py`  |   |
-|       Voting Ensemble        |                                                   RF, LR, SVM                                                    | Model ensemble for enhanced accuracy |   `voting_ensemble.py`   |   |
-|    Simple Neural Network     |                                               Single Hidden Layer                                                |    Basic neural network structure    |      `simple_nn.py`      |   |
-| Convolutional Neural Network |                                        Convolutional Neural Network (CNN)                                        |    Feature extraction for images     |      `cnn_model.py`      |   |
+|          Experiment          |                                                    Model Type                                                    |            Key Techniques            |          Script          | 
+|:----------------------------:|:----------------------------------------------------------------------------------------------------------------:|:------------------------------------:|:------------------------:|
+|         Classical ML         | Decision Tree (DT), Random Forest (RF), Logistic Regression (LR), Naïve Bayes (NB), Support Vector Machine (SVM) |         Baseline performance         | `classical_ml_models.py` |
+|         Scaled Data          |                                               DT, RF, LR, NB, SVM                                                |         Data standardization         | `scaled_data_models.py`  |
+|       Voting Ensemble        |                                                   RF, LR, SVM                                                    | Model ensemble for enhanced accuracy |   `voting_ensemble.py`   |
+|    Simple Neural Network     |                                               Single Hidden Layer                                                |    Basic neural network structure    |      `simple_nn.py`      |
+| Convolutional Neural Network |                                        Convolutional Neural Network (CNN)                                        |    Feature extraction for images     |      `cnn_model.py`      |
